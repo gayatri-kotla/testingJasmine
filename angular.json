@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "dist/practice",
             "index": "src/index.html",
+            "karmaConfig": "./karma.config.js", 
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
